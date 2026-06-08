@@ -100,9 +100,9 @@ main > section{
 .teams{
   align-items: center;
 }
-.team-img-container{
+.team-img-container .fact-container{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(1fr);
 }
 
 .our-features{
@@ -137,7 +137,19 @@ main > section{
 .fact-name{
   font-size: 1.25rem;
   font-weight: 600;
+} 
+
+/* sponsors related style */
+.sponsor-info{
+  max-width: 540px;
+  margin: 50px auto;
+  text-align: center; 
 }
+.sponsor-companies{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
 
 /* responsive media query */
 
